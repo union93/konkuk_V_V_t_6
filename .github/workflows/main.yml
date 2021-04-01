@@ -7,7 +7,7 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: SonarQube Scan
-      uses: achilleslinux/sonarqube-action@master
+      uses: kitabisa/sonarqube-action@v1.1.0
       with:
         host: https://dcab5304934c.ngrok.io 
         login: ecc553f46f24136bd4705c7ead5c1e75b3d7b394
