@@ -15,7 +15,7 @@ public class Charge {
                 break;
             case (SUBWAY):
                 result = calculateSubway(age, killometer);
-
+                System.out.print("do");
                 break;
             default :
                 throw new RuntimeException("Such type does not exist");
