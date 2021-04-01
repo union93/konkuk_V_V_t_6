@@ -9,5 +9,5 @@ jobs:
     - name: SonarQube Scan
       uses: achilleslinux/sonarqube-action@master
       with:
-        host: ${{ https://dcab5304934c.ngrok.io }}
-        login: ${{ ecc553f46f24136bd4705c7ead5c1e75b3d7b394 }}
+        host: https://dcab5304934c.ngrok.io 
+        login: ecc553f46f24136bd4705c7ead5c1e75b3d7b394
